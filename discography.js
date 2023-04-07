@@ -20,8 +20,12 @@ function getCards () {
                     response += `<div class="card">`
                 } else {
                     response += `<div class="card ytranslate">`
-                }
+                }   
+                if (cover_img == null) {
+                    response += `<img src="images/discography/blankart.jpg" alt="blankart.jpg" style="width:100%">`
+                } else {
                     response += `<img src="images/discography/${cover_img}" alt="${cover_img}" style="width:100%">`
+                }
                     if (streaming != null || youtube != null) {
                         response += `<div class="links-container">`
                     } else {
