@@ -9,7 +9,7 @@
         },
         {
             "image": "leak.jpg",
-            "title": "Leak",
+            "title": "Leak (Better Go Run)",
             "author": "Japkozjad",
             "streaming": "https://push.fm/fl/1lwbqj4b",
             "youtube": "https://youtu.be/t39iW0GURmw" 
@@ -29,7 +29,7 @@
             "youtube": "https://youtu.be/KISKBOD4JCU"
         },
         {
-            "image": null,
+            "image": "withoutyouachoo.jpg",
             "title": "Without You (A Choo) [I'm Blue Ponified Cover]",
             "author": "Japkozjad",
             "streaming": null,
@@ -64,7 +64,7 @@
             "youtube": "https://youtu.be/lcQeuRPH8M4"
         },
         {
-            "image": null,
+            "image": "emergency.jpg",
             "title": "Emergency",
             "author": "Japkozjad",
             "streaming": null,
@@ -92,32 +92,53 @@
             "youtube": "https://youtu.be/IhBP8h_dVg4"
         },
         {
-            "image": null,
+            "image": "sunshine.jpg",
             "title": "Sunshine",
             "author": "Japkozjad",
             "streaming": null,
             "youtube": "https://youtu.be/0OsNYkUfKKY"
         },
         {
-            "image": null,
+            "image": "lunardrop.jpg",
             "title": "Lunar Drop",
             "author": "Japkozjad",
             "streaming": null,
             "youtube": "https://youtu.be/2tM6dYF5mRQ"
         },
         {
-            "image": null,
+            "image": "smile!.jpg",
             "title": "Smile!",
             "author": "Japkozjad, Altius Volantis",
             "streaming": "https://soundcloud.com/japkozjad/smile",
             "youtube": "https://youtu.be/PSbjhGRQABE"
         },
         {
-            "image": null,
+            "image": "hipinkiepie.jpg",
             "title": "Hi! (Pinkie Pie)",
             "author": "Japkozjad",
             "streaming": null,
             "youtube": "https://youtu.be/ttBTv1DDzLc"
+        },
+        {
+            "image": "ohmywait.jpg",
+            "title": "Oh My... WAIT",
+            "author": "Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/yOEoMAVkFHQ"
+        },
+        {
+            "image": "space.jpg",
+            "title": "Space",
+            "author": "Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/ea-P18egSo0"
+        },
+        {
+            "image": "runaway.jpg",
+            "title": "Runaway",
+            "author": "Japkozjad",
+            "streaming": "https://open.spotify.com/track/30a4D4C7ePzmRcbF5X0gHb?si=dc6fa15fc540436c",
+            "youtube": "https://youtu.be/T1roBNFiYgg"
         }
     ]
 }
