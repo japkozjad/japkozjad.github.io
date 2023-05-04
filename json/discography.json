@@ -1,6 +1,13 @@
 {
     "discography": [
         {
+            "image": "ajourneyintwosteps.jpg",
+            "title": "A Journey In Two Steps",
+            "author": "Japkozjad",
+            "streaming": "https://push.fm/fl/rc5grct5",
+            "youtube": "https://youtu.be/g8xiJ3HNEYA"
+        },
+        {
             "image": "rainbowfactoryremix.jpg",
             "title": "Rainbow Factory (Cover/Remix)",
             "author": "WoodenToaster, Japkozjad, Hiverro",
