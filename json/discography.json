@@ -1,6 +1,13 @@
 {
     "discography": [
         {
+            "image": "theemotionalvoyage.jpg",
+            "title": "The Emotional Voyage",
+            "author": "Japkozjad",
+            "streaming": "https://push.fm/fl/9ezev8zj",
+            "youtube": "https://youtu.be/JlpSQBqwmpM"
+        },
+        {
             "image": "ajourneyintwosteps.jpg",
             "title": "A Journey In Two Steps",
             "author": "Japkozjad",
