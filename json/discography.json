@@ -1,6 +1,13 @@
 {
     "discography": [
         {
+            "image": "dreamland.jpg",
+            "title": "Dreamland",
+            "author": "Japkozjad, Acid Applejack",
+            "streaming": "https://push.fm/fl/ihairewt",
+            "youtube": "https://youtube.com/watch?v=womrqZZNgA0"
+        },
+        {
             "image": "theemotionalvoyage.jpg",
             "title": "The Emotional Voyage",
             "author": "Japkozjad",
