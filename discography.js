@@ -22,9 +22,9 @@ function getCards () {
                     response += `<div class="card ytranslate">`
                 }   
                 if (cover_img == null) {
-                    response += `<img src="images/discography/blankart.jpg" alt="blankart.jpg" style="width:100%">`
+                    response += `<img src="images/discography/blankart.jpg" draggable=false alt="blankart.jpg" style="width:100%">`
                 } else {
-                    response += `<img src="images/discography/${cover_img}" alt="${cover_img}" style="width:100%">`
+                    response += `<img src="images/discography/${cover_img}" draggable=false alt="${cover_img}" style="width:100%">`
                 }
                     if (streaming != null || youtube != null) {
                         response += `<div class="links-container">`

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<script>
+    // Funkcja do tworzenia linków z obrazami
+    function createImageLink(image) {
+        const imageLink = document.createElement('a');
+        imageLink.href = `https://derpibooru.org/images/${image.id}`;
+        imageLink.target = '_blank';
+
+        const imageElement = document.createElement('img');
+        imageElement.classList.add("derpi_img");
+        imageElement.src = image.representations.medium;
+        imageElement.alt = `Image ${image.id}`;
+
+        imageLink.appendChild(imageElement);
+
+        return imageLink;
+        }
+
+        // Wykonanie żądania FETCH
+        fetch('https://derpibooru.org/api/v1/json/search/images?per_page=20&q=safe%2C+artist%3Ajapkozjad%2C+-webm')
+        .then(response => response.json())
+        .then(data => {
+            const images = data.images;
+            if (images && images.length > 0) {
+            const imageContainer = document.getElementById('image-container');
+            if (imageContainer) {
+                images.forEach(image => {
+                // Tworzenie linku z obrazem
+                const imageLink = createImageLink(image);
+                imageLink.classList.add("derpi_img_link");
+
+                // Tworzenie osobnego kontenera dla każdego linku
+                const imageLinkContainer = document.createElement('div');
+                imageLinkContainer.classList.add("derpi_img_container");
+                imageLinkContainer.appendChild(imageLink);
+
+                // Dodawanie linku do kontenera
+                imageContainer.appendChild(imageLinkContainer);
+                });
+            }}
+        });
+</script>
+<style>
+    .derpi_img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .derpi_img_container {
+        height: auto;
+        width: auto;
+        aspect-ratio: 1/1;
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+    .derpi_img_container:hover {
+        transform: translateY(-10px);
+    }
+
+    .derpi-layout {
+        padding: 20px;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    @media (max-width: 1200px) {
+        .derpi-layout {
+            grid-template-columns: auto auto;
+        }
+    }
+
+    /*SCROLLBARS*/
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #757575 #000000;
+    }
+    
+    *::-webkit-scrollbar {
+        height: 8px;
+        width: 8px;
+    }
+    *::-webkit-scrollbar-track {
+        background-color: #061216;
+    }
+    
+    *::-webkit-scrollbar-track:hover {
+        background-color: #061216;
+    }
+    
+    *::-webkit-scrollbar-track:active {
+        background-color: #061216;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #757575;
+    }
+    
+    *::-webkit-scrollbar-thumb:hover {
+        background-color: #A3A3A3;
+    }
+    
+    *::-webkit-scrollbar-thumb:active {
+        background-color: #A3A3A3;
+    }
+</style>
+<body>
+<div class="derpi-layout" id="image-container"></div>
+</body>
+</html>

@@ -43,6 +43,7 @@ header {
     z-index: 1000;
     
 }
+
 header .fixed nav {
     width: 100%;
     height: 100px;
@@ -60,7 +61,7 @@ header .fixed nav .header-navbar-logo a img {
 header .fixed nav .header-navbar-links ul {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 35px;
 
 }
 header .fixed nav .header-navbar-links ul li a {
@@ -110,7 +111,7 @@ header .fixed .header-drop-menu {
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 header .fixed .header-drop-menu.open {
-    height: 190px;
+    height: 237px;
 }
 header .fixed .header-drop-menu ul li {
     padding: 10px;
@@ -134,7 +135,7 @@ header .fixed .header-drop-menu ul li:hover a {
 
 section.content-title {
     position: relative;
-    padding-top: calc(10% + 140px);
+    padding-top: calc(10% + 180px);
     min-height: calc(100vh - 140px);
     text-align: center;
 }
@@ -159,9 +160,6 @@ section.content-about {
     padding: 20px;
     min-height: 100vh;
 }
-section.content-about img {
-    scale: 0.5;
-}
 section.content-about h2 {
     color: aliceblue;
     font-size: 42px;
@@ -175,13 +173,41 @@ section.content-about p {
     color: aliceblue;
     font-size: 20px;
 }
-section.content-about img.me {
-    scale: 1;
-    border-radius: 50%;
-    margin: 40px 0;
-    width: 300px;
-    text-align: center;
+section.content-about .link-tbl {
+    max-width: 900px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
 }
+section.content-about .link-tbl a {
+    font-size: 20px;
+}
+section.content-about .link-tbl td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-img {
+    scale: 1;
+    border-radius: 0%;
+    margin: 40px 0;
+    width: 500px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 500px) {
+    .header-img {
+        width: 250px;
+    }
+}
+
+.header-img:hover {
+    transform: scale(1.05);
+    border-radius: 0%;
+}
+
 section.content-discography {
     position: relative;
     margin-top: 100px;
@@ -222,7 +248,6 @@ section.content-discography .cards-content .card img {
     border-radius: 5px 5px 5px 5px;
     background: rgba(0,0,0,0.3);
     width: 200px;
-    /*border-radius: 50%;  ----------------- Do wyboru SPYTAĆ SIĘ !!!!!*/
 }
 section.content-discography .cards-content .card:hover img {
     filter: brightness(50%);
@@ -273,6 +298,26 @@ section.content-discography .cards-content .card:hover .links-container {
     transform: translateY(-105px);
     /* height: 60px; */
 }
+
+section.content-stuff {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+section.content-stuff h2 {
+    color: rgb(76, 76, 255);
+    font-size: 42px;
+    font-weight: 600;
+}
+section.content-stuff p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
 section.content-contact {
     position: relative;
     margin-top: 100px;
@@ -301,7 +346,7 @@ section.content-contact .contact-smol {
     font-size: 16px;
     padding-bottom: 20px;
 }
-section.content-contact .copyright {
+section.content-contact .copyright, section.content-list-type .copyright {
     font-size: 11px;
 }
 section.content-contact i {
@@ -330,7 +375,7 @@ footer {
     -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 710px) {
     header .fixed nav .header-navbar-links {
         display: none;
     }
@@ -365,3 +410,261 @@ footer {
     width: 60px;
     display: none;
 }
+
+/* OVERLAY */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    }
+    .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.link-fancy {
+    color: rgb(76, 76, 255);
+    text-decoration: none;
+    position: relative;
+}
+
+  
+.link-fancy:hover {
+    color: rgb(76, 76, 255);
+    text-shadow: 0 0 5px rgba(76, 76, 255, 0.5);
+}
+.link-fancy::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(76, 76, 255);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    border-radius: 3px;
+    transition: width 500ms;
+}
+.link-fancy:hover::after {
+    width: 90%;
+    box-shadow: 0 0 5px rgba(76, 76, 255, 0.5);
+}
+
+section.content-list-type {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+section.content-list-type .header-img {
+    width: 300px;
+}
+
+section.content-list-type h2 {
+    color: aliceblue;
+    font-size: 42px;
+    font-weight: 400;
+}
+section.content-list-type h3 {
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 400;
+}
+section.content-list-type h2 span {
+    color: rgb(76, 76, 255);
+    font-weight: 600;
+}
+section.content-list-type p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+section.content-list-type .box {
+    max-width: 900px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+section.content-list-type .box h3 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+section.content-list-type .box .answer {
+    text-align: justify;
+    padding: 15px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+section.content-list-type .box .answer .podkrl {
+    color: rgb(44, 221, 44);
+    font-weight: bold;
+}
+
+section.content-list-type .box .answer .warning {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(255, 201, 53, 0.205);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+section.content-list-type .box .answer .warning p {
+    color: rgb(196, 167, 114)
+}
+
+section.content-list-type .box .answer:hover {
+    background-color: rgba(196, 196, 196, 0.116);
+}
+
+section.content-list-type .box .answer p {
+    font-size: 17px;
+}
+
+section.content-list-type .box .answer .exampled {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(93, 91, 197, 0.11);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fancy-button {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.fancy-button:hover {
+    color: rgb(76, 76, 255);
+    text-shadow: 0 0 5px rgba(76, 76, 255, 0.5);
+}
+.fancy-button::after {
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: rgb(76, 76, 255);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -6px;
+    border-radius: 3px;
+    transition: width 500ms;
+}
+.fancy-button:hover::after {
+    width: 90%;
+    box-shadow: 0 0 5px rgba(76, 76, 255, 0.5);
+}
+
+/*SCROLLBARS*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #757575 #000000;
+  }
+  
+  *::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: #061216;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #061216;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #061216;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #757575;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #A3A3A3;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #A3A3A3;
+  }
+
+  .japkos-pack .pack-container {
+    padding: 20px;
+    background-color: #00000042;
+    display: flex;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+
+  .japkos-pack .pack-container:hover {
+    background-color: rgba(101, 101, 255, 0.11);
+    transform: translateY(-5px);
+  }
+  
+  .japkos-pack .pack-container .info {
+    text-align: left;
+    padding-left: 20px;
+}
+
+  @media (max-width: 600px) {
+    .japkos-pack .pack-container {
+        display: block;
+    }
+    .japkos-pack .pack-container .info {
+        text-align: center;
+        padding-left: 20px;
+    }
+  }
+
+  .japkos-pack .pack-container .info .title {
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  .japkos-pack .pack-container img {
+    border-radius: 5px 5px 5px 5px;
+    background: rgba(0,0,0,0.3);
+    width: 200px;
+    height: 200px;
+  }
