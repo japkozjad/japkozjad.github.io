@@ -1,6 +1,41 @@
 {
     "discography": [
         {
+            "image": "twostepstheme.jpg",
+            "title": "Twostep's Theme",
+            "author": "Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/7goqr1ZD7XQ"
+        },
+        {
+            "image": "hypahyparemix.jpg",
+            "title": "HYPA HYPA (Japkozjad Remix)",
+            "author": "PrinceWhateverer, Deus, Blackened Blue, Tw3Lv3",
+            "streaming": null,
+            "youtube": "https://youtu.be/2LkteyQYH5w"
+        },
+        {
+            "image": null,
+            "title": "Nostalgia",
+            "author": "Nitrogem & Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/UoT1fGpsLC0"
+        },
+        {
+            "image": "neverletthisgo.jpg",
+            "title": "Never Let This Go",
+            "author": "SpinScissor & Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/ECLqNz7e4Wk"
+        },
+        {
+            "image": "citylights.jpg",
+            "title": "City Lights",
+            "author": "Tw3Lv3 & Japkozjad",
+            "streaming": "https://distrokid.com/hyperfollow/tw3lv3/green-house-2",
+            "youtube": "https://youtu.be/Od91ORXxLLU"
+        },
+        {
             "image": "partytonightftfalafeljake.jpg",
             "title": "Party Tonight (ft. FalafelJake)",
             "author": "Japkozjad",
