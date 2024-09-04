@@ -1,6 +1,20 @@
 {
     "discography": [
         {
+            "image": "naturalselection.jpg",
+            "title": "Natural Selection",
+            "author": "Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/-zNGVMyQrg0"
+        },
+        {
+            "image": "energy.jpg",
+            "title": "Energy",
+            "author": "Japkozjad",
+            "streaming": "https://push.fm/fl/huxjqmyw",
+            "youtube": "https://youtu.be/mfbqB4nGckg"
+        },
+        {
             "image": "allthatireallyneed.jpg",
             "title": "All That I Really Need",
             "author": "Japkozjad & FunnyK16_Art",
