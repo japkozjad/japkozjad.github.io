@@ -19,7 +19,7 @@ body {
     background-position: center;
     min-height: 100vh;
     background: rgb(5,19,19);
-    background: linear-gradient(0deg, rgba(5,19,19,1) 0%, rgb(1, 0, 47) 100%);
+    background: linear-gradient(0deg, rgb(18, 28, 59) 0%, rgb(4, 4, 20) 100%);
 }
 
 .bg-overlay{
@@ -56,7 +56,7 @@ header .fixed nav {
     flex-wrap: nowrap;
 }
 header .fixed nav .header-navbar-logo a img {
-    width: 100px;
+    width: 200px;
 }
 header .fixed nav .header-navbar-links ul {
     list-style: none;
