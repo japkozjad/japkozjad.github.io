@@ -1,6 +1,13 @@
 {
     "discography": [
         {
+            "image": "sorry.jpg",
+            "title": "Sorry",
+            "author": "Japkozjad",
+            "streaming": "https://push.fm/fl/04yz3qa2",
+            "youtube": "https://youtu.be/oSJOMrUM5to"
+        },
+        {
             "image": "naturalselection.jpg",
             "title": "Natural Selection",
             "author": "Japkozjad",
