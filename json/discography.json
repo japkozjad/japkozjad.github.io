@@ -1,11 +1,32 @@
 {
     "discography": [
         {
+            "image": "chill2025.jpg",
+            "title": "Chill (2025)",
+            "author": "Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/alYI9Zp9NCY"
+        },
+        {
+            "image": "heattonight.jpg",
+            "title": "Heat Tonight",
+            "author": "Japkozjad",
+            "streaming": "https://push.fm/fl/kewi2tjx",
+            "youtube": "https://youtu.be/fMVTORvN0-A"
+        },
+        {
+            "image": null,
+            "title": "I Can't Do This Alone (Japkozjad Remix)",
+            "author": "Trey Husk & SpinScissor",
+            "streaming": null,
+            "youtube": "https://youtu.be/bS0MgZNNJog"
+        },
+        {
             "image": "colorsoflifealbum.jpg",
             "title": "Colors Of Life (Album)",
             "author": "Japkozjad",
-            "streaming": "https://push.fm/ps/gfwcp02s",
-            "youtube": null
+            "streaming": "https://push.fm/fl/la1isl5s",
+            "youtube": "https://youtu.be/-l5NC5yjboY"
         },
         {
             "image": "sorry.jpg",
