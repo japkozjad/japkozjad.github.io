@@ -1,6 +1,27 @@
 {
     "discography": [
         {
+            "image": "nella_schuss_theme.jpg",
+            "title": "Nella Schuss's Theme",
+            "author": "Japkozjad",
+            "streaming": null,
+            "youtube": "https://youtu.be/Nvcqq_TUyts?si=eYlCdPqK8aHdH9VN"
+        },
+        {
+            "image": "abandoned_compilation_1.jpg",
+            "title": "Abandoned Compilation #1",
+            "author": "Japkozjad",
+            "streaming": "https://japkozjad.bandcamp.com/album/abandoned-compilation-1",
+            "youtube": null
+        },
+        {
+            "image": "going_w_minty.jpg",
+            "title": "Going",
+            "author": "Minty & Japkozjad",
+            "streaming": null,
+            "youtube": "https://www.youtube.com/watch?v=jtOSCiF9qEU"
+        },
+        {
             "image": "chill2025.jpg",
             "title": "Chill (2025)",
             "author": "Japkozjad",
