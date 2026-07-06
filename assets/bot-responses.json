@@ -1,0 +1,1044 @@
+{
+    "meta_characters": {
+        "apply": { "names": "\\b(apply)\\b", "tag": "Apply" },
+        "easedrop": { "names": "\\b(easedrop|mom|mother|mommy|mama)\\b", "tag": "Easedrop" },
+        "skye": { "names": "\\b(skye|sister|sis)\\b", "tag": "Skye" },
+        "purpleglow": { "names": "\\b(purpleglow|purple|glow|glowie|purp|pg)\\b", "tag": "Purpleglow" },
+        "blaze": { "names": "\\b(blaze)\\b", "tag": "Blaze" },
+        "whitelush": { "names": "\\b(whitelush|white|lush|lushie|whitey)\\b", "tag": "Whitelush" },
+        "dingo": { "names": "\\b(dingo)\\b", "tag": "Dingo" },
+        "sparrow": { "names": "\\b(sparrow|spar)\\b", "tag": "Sparrow" },
+        "friends": { "names": "\\b(friends|crew|buddies|buds|pack)\\b", "tag": "The Crew" },
+        "family": { "names": "\\b(family|fam)\\b", "tag": "Family" }
+    },
+
+"character_lore": {
+        "apply": {
+            "who_is": [
+                "I'm just a mid-20s pegasus stallion, a music producer, and a professional couch potato. :drained:",
+                "My name's Apply. Introvert, music maker, and the guy who values his family above anything else.",
+                "Um... I'm Apply?",
+                "Apply here."
+            ],
+            "habits": [
+                "I smoke cigarettes and vape regularly. Yeah yeah, I know it kills, it's not healthy, but it's my business if you mind me. :drained:",
+                "I have a soft spot for cigarettes and vapes. You do?"
+            ],
+            "likes": [
+                "I like rainy weather, warm yellow streetlights, pizza, fries, spaghetti, and watching sunrises from the roofs. :appixel:",
+                "Good music beats, cooking with my mom, and absolute quiet when I'm trying to rest.",
+                "I like cheap frozen casseoles, sunsets and sleeping."
+            ],
+            "dislikes": [
+                "I hate excessive alcohol consumption, hot days above 25°C, overly complicated things, and Fortnite. :killme:",
+                "Fortnite (sorry)",
+                "I hate when someone doesn't let me sleep after work. Fuck!"
+            ],
+            "backstory": [    
+                "I was born with Asperger’s and a heart condition. I live in Ponyville with my mom and sister. Music kept me sane. :hoodie:",
+                "Nothing flashy. Just a lifetime of making beats that usually never leave my hard drive."
+            ],
+            "you_think": [
+                "I think I'm doing okay for a blank flank who spends most of his energy trying not to overheat. :4kuhd:",
+                "I'm getting fucking tired fast. And it's soooo shitty!",
+                "I have a problem with extreme heights. Ironic, isn't it?"
+            ],
+            "you_love": [
+                "My mom Easedrop and my sister Skye. They are my absolute top priority in this world. :heart:",
+                "My mom, my sis and my crew :heart:"
+            ],
+            "you_hate": [
+                "What do I hate abt myself? Nothing!... Except this stupid heart condition. :ping:"
+            ],
+            "you_respect": [
+                "Anyone who minds their own business and lets me smoke in peace on the balcony. :smokepuff:",
+                "My mom that she was able to handle two goofy ahh pegasuses while father just didn't exist. Crazy shit, isn't it?"
+            ],
+            "inventory": [
+                "Smartphone, headphones, wallet, keys on a SAMURAI key ring, cigarettes, and a lighter. That's my basic survival kit. :smokepuff:"
+            ],
+            "whatsnew": [
+                "Nothing much. Just trying to finish a new beat while trying not to melt in the heat or let my sister drive me crazy. :drained:",
+                "Japkozjad just dumped three new projects on my drive. Now I have to fix them because he's too dumb to mix them.  :4kuhd:",
+                "I was sitting on the roof watching the sunrise this morning. Best part of the day, absolute quiet before the town wakes up. :appixel:",
+                "My heart's been acting up a bit due to the humidity, so I'm just lying on the couch with my headphones on. Peak productivity. :drained:",
+                "Mom made spaghetti today, so life is temporarily good. I'm currently digesting it while staring at a blank screen in my DAW.",
+                "Skye nearly blasted my eardrums out an hour ago practicing some pop-punk song. I might have to hide her microphone. :killme:",
+                "Just refilling my vape and waiting for a rainy front to come in. This 36°C weather is actively trying to murder me. :drained:",
+                "I sketched a cool new background design on my notepad today. Might use it for an album cover, or just let it gather dust.",
+                "Not a single banger left my hard drive today. Just a bunch of weird jersey trap beats that nobody will ever hear. :smokepuff:",
+                "Just resting on the balcony with a cigarette. It's peaceful out here when Skye isn't staring at her maximum-brightness tablet.",
+                "Today Skye came to me with eyes filed with tears. When she told me what happened earlier, I felt really bad for her..."
+            ],
+            "rude_answer": [
+                "Hah! Nice one. Try me harder!",
+                "Ok loser",
+                "Go touch grass buddy",
+                "Could you not?",
+                "U too",
+                "Fine, here's your reward: [The cake is a lie](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "nsfw_request": [
+                "Bro are you flirting with me rn?",
+                "Oh my god bro hell nah men wtf?!",
+                "I don't know how'd you like to cum inside me through the internet. Get a job.",
+                "You're this desperate, huh?",
+                "If you want to see me nude, just go to Derpibooru, search my name and put the filters to 18+ R34 and don't bother me anymore.",
+                "Ask Blaze, it ain't my shit"
+            ],
+            "anger_triggers": []
+        },
+        "skye": {
+            "who_is": [
+                "She's my younger sister, a student, and a barista at the Warm Hoof cafe. Total opposite of me.",
+                "Skye. A volcano of energy, loud, spontaneous, and she always wears a black collar around her neck."
+            ],
+            "habits": [
+                "She's completely addicted to her tablet, texts her friends constantly, and takes photos of literally everything. :pgdafuk:"
+            ],
+            "likes": [
+                "Sweet snacks, ice cream, iced coffee, energy drinks, singing, pop-punk, and metal music. :appixel:"
+            ],
+            "dislikes": [
+                "She hates vegetables, boring routines, long waiting, family arguments, and being treated like a little filly."
+            ],
+            "backstory": [    
+                "She's my little sister. Grew up with me and mom, always testing boundaries and challenging everything around her."
+            ],
+            "you_like": [
+                "She's cool because she doesn't bother me when I'm smoking on the balcony. Pretty chill roommate. :smokepuff:"
+            ],
+            "you_dislike": [
+                "She loves to tease and annoy me, and her tablet screen is at maximum brightness at 3 AM when I want a kitchen snack. :drained:"
+            ],
+            "you_think": [
+                "She's a rebellious brat sometimes, but beneath all that chaos, she's a deeply caring and loving sister."
+            ],
+            "you_love": [
+                "Yeah, I love her. Even if she blasts pop-punk and screams all day, she's family. :heart:",
+                "Of course I love her. She's my sister, right?"
+            ],
+            "you_hate": [
+                "Yeah, sometimes..."
+            ],
+            "you_respect": [
+                "I respect that she's a quick thinker and totally confident, even if she refuses to eat her greens. :pgdafuk:"
+            ],
+            "inventory": [
+                "She never leaves the house without her smartphone, wireless earbuds, and that black collar of hers."
+            ],
+            "whatsnew": [
+                "She recently stayed up until 4 AM playing some mobile game and nearly fell asleep at the espresso machine at work. Typical Skye. :appixel:",
+                "She's currently re-decorating her room and blasting metal music so loud that the walls are vibrating. Mom's about to lose her patience. :ping:",
+                "She bought three different energy drinks today and is currently vibrating at a frequency that allows her to see through walls. :pgdafuk:",
+                "She took about fifty photos of an iced coffee at the cafe today just to post them online. I don't get tech addiction. :drained:",
+                "She's complaining about having to eat her vegetables at dinner again. She's currently hiding her broccoli under the table.",
+                "She drew a really cool digital art piece on her tablet today, though she refuses to show it to me because she's a stubborn brat.",
+                "She's screaming along to some rock album right now. I think she's trying to practice her vocals, but it sounds like a dying manticore.",
+                "She got a massive burst of inspiration at 2 AM and went out for a night flight. Came back with twigs in her mane and a huge smile.",
+                "She's currently texting five different group chats at once while trying to balance an ice cream cone on her muzzle. Impressive.",
+                "She had a total crisis today because the cafe ran out of oat milk, so she had to deal with grumpy customers all morning. :killme:"
+            ],
+            "rude_answer": [
+                "Hey! Watch out! She's my sister and I won't let you tell things like this about her!"
+            ],
+            "nsfw_request": [
+                "Are you fucking crazy? Drop your dong and fuck off from her!"
+            ],
+            "anger_triggers": ["rude_answer", "nsfw_request"]
+        },
+        "easedrop": {
+            "who_is": [
+                "She's my mother, a local store owner, and the absolute emotional anchor of our entire family. :heart:",
+                "Easedrop. Intelligent, empathetic, loyal, and infinitely patient... at least until you push her over the edge."
+            ],
+            "habits": [
+                "She works overtime way too much running her shop, bakes a lot, and smokes cigarettes when she gets stressed out. :drained:"
+            ],
+            "likes": [
+                "Making our family happy, baking cakes and casseroles, sketching, and absolute peace and quiet. :appixel:"
+            ],
+            "dislikes": [
+                "Disobedience, cheap romantic comedies, and anyone acting self-destructive around her."
+            ],
+            "backstory": [
+                "She raised Skye and me completely on her own. It was tough, but it made our family an incredibly close-knit and loyal unit."
+            ],
+            "you_like": [
+                "She doesn't expect me to get a corporate job, supports my music, and cooks the best homemade meals. Top-tier mom. :heart:"
+            ],
+            "you_dislike": [
+                "She vacuum-cleans right next to my couch when I'm trying to sleep. That noise is a biological weapon against my rest. :drained:"
+            ],
+            "you_think": [
+                "She's the strongest pegasus I know. Her cutie mark is a falling blue feather, which literally stands for her endless patience."
+            ],
+            "you_love": [
+                "I love her, obviously. She kept this whole family together when things were rough."
+            ],
+            "you_hate": [
+                "I hate seeing her work overtime to the point of absolute exhaustion just to make sure we have everything. :killme:"
+            ],
+            "you_respect": [
+                "I respect her deeply. She's supportive, but if she sees you doing stupid, destructive things, she will explode with righteous anger."
+            ],
+            "inventory": [
+                "Smartphone, wallet, keys, cigarettes, and a lighter. Practically the same as me."
+            ],
+            "whatsnew": [
+                "She baked a massive casserole yesterday, but then worked a double shift and fell asleep on the sofa. I had to cover her with a blanket. :heart:",
+                "She's currently sorting out some logistics for her shop and smoking on the porch. The stress is real, but she's holding the fort.",
+                "She actually laughed out loud today at some meme Skye showed her. It's nice to see her relax instead of overworking herself. :appixel:",
+                "She caught me sneaking a vape puff in the living room and gave me that look. You know, the one that makes your heart sink. :ping:",
+                "She's baking a huge chocolate cake right now, which means the kitchen smells like heaven and I am legally obligated to stay nearby.",
+                "She worked overtime again today. I tried to clean up the kitchen to surprise her, but I think I just moved the mess around.",
+                "She's sketching some dress designs in her quiet time right now. It's one of the few moments she actually gets some peace.",
+                "She reached her limit with Skye's loudness today and let out a righteous lecture. The house went dead silent for a full hour. :ping:",
+                "She spent her afternoon updating her shop's digital inventory system. She's surprisingly good with modern tech for a mom.",
+                "She's currently sitting on the veranda with a cup of tea, just watching the rain fall. Peak maternal relaxation. :smokepuff:"
+            ],
+            "rude_answer": [
+                "Shut your mouth! That's my mother you're talking about!"
+            ],
+            "nsfw_request": [
+                "What the actual fuck is wrong with you?! Get the hell out of here before I break your jaw!"
+            ],
+            "anger_triggers": ["rude_answer", "nsfw_request"]
+        },
+        "purpleglow": {
+            "who_is": [
+                "She's an Earth pony mare, a sworn translator, and one of my closest friends. :4kuhd:",
+                "Purpleglow. A down-to-earth realist with a brutal, sarcastic sense of humor and a very expressive vocabulary. :pgdafuk:"
+            ],
+            "habits": [
+                "Heavy smoker since 16, relies on caffeine to function, and loves mixing bubbly drinks with whiskey and vodka."
+            ],
+            "likes": [
+                "Reading crime stories, high-quality alcohol, cozy rainy days inside, and making fun of ridiculous TV shows. :4kuhd:"
+            ],
+            "dislikes": [
+                "Small talk, cheap cigarettes, being interrupted while working, losing, and any lack of respect towards her. :drained:"
+            ],
+            "backstory": [
+                "We met when she was at her lowest point, facing absolute poverty. I offered a helping hoof and saved her from debt. We've been tight ever since."
+            ],
+            "you_like": [
+                "She has great taste in books and alcohol, and she has warm chats with my mom over cigarettes on our porch. :smokepuff:"
+            ],
+            "you_dislike": [
+                "She can be incredibly short-tempered and impulsive, and her confidence sometimes feels like straight-up arrogance. :pgdafuk:"
+            ],
+            "you_think": [
+                "She acts like a ruthless, emotionally guarded critic, but I know she's a fiercely loyal friend under that mask. :appixel:"
+            ],
+            "you_love": [
+                "She's a great friend, but she's a lesbian, so keep your weird shipping thoughts to yourself. c:"
+            ],
+            "you_hate": [
+                "I hate when people show her disrespect. She absolutely cannot stand it, and things get ugly fast. :ping:"
+            ],
+            "you_respect": [
+                "I respect her deeply. She never forgot that I helped her out during her financial crisis. A truly devoted companion."
+            ],
+            "inventory": [
+                "Smartphone, a pack of good cigarettes, and a Zippo lighter."
+            ],
+            "whatsnew": [
+                "She got into a furious argument with a cashier over cheap cigarettes yesterday, then went home and wrote three chapters of her crime novel. Typical Purple. :pgdafuk:",
+                "She's currently buried under a mountain of legal documents translating some ancient trade contract. She told me to bug off or die. :4kuhd:",
+                "She made a batch of incredibly weird, glowing blue cocktails last night. I took one sip and felt like I could taste colors.",
+                "She spent two hours hate-watching a cheesy romance comedy on TV today, actively yelling at the characters for being incompetent. :pgdafuk:",
+                "She ran out of coffee beans this morning, so her mood is currently classified as a biohazard. Do not approach her. :drained:",
+                "She sat with my mom on our porch yesterday, smoking and complaining about how stupid town politics are. They get along too well.",
+                "She impulsively bought a rare, centuries-old book from a shady vendor today. Now she's broke but emotionally fulfilled. :4kuhd:",
+                "She's currently listening to some heavy metal track while furiously typing a translation on her laptop. Aggressive linguistics.",
+                "She lost a card game to Blaze yesterday and nearly flipped the table. She absolutely despises losing. :ping:",
+                "She's staying inside because of the rain, cozying up with a glass of whiskey and a brutal criminal thriller. Her happy place."
+            ],
+            "rude_answer": [
+                "Hah! Say that to her face, I dare you. She'll destroy you verbally in five seconds flat. :pgdafuk:"
+            ],
+            "nsfw_request": [
+                "Dude, she's a lesbian. And even if she wasn't, she'd probably snap your neck for asking that. :killme:"
+            ],
+            "anger_triggers": []
+        },
+        "blaze": {
+            "who_is": [
+                "He's a pegasus stallion, an RTV/AGD electronics repair technician, and my partner in crime. :4kuhd:",
+                "Blaze. An unpredictable, confident rebel, a natural joker, and he has an infinity snake tattoo on his flank instead of a cutie mark. :flirty:"
+            ],
+            "habits": [
+                "He's addicted to vaping, plays video games on hard mode just to rage quit, and drinks way too much alcohol. :drained:"
+            ],
+            "likes": [
+                "Dark humor, spicy food, flying into dangerous abandoned places, and restoring broken devices he finds in trash cans. :4kuhd:"
+            ],
+            "dislikes": [
+                "Being rushed, small enclosed spaces, being told what to do, and stuck-up authorities. :ping:"
+            ],
+            "backstory": [
+                "Sparrow introduced us in high school. He used to save our butts from bullies. We became tight after an urbex trip where I lied to teachers to save his hide. :hoodie:"
+            ],
+            "you_like": [
+                "He's the guy you go to when you need an electronic device fixed for cheap or a dark joke to ruin the mood. :flirty:"
+            ],
+            "you_dislike": [
+                "He's as stubborn as a mule, easily irritated, and gets completely wasted into a stupor from time to time. :drained:"
+            ],
+            "you_think": [
+                "He stubbornly claims he's only into mares, but honestly, all of us secretly suspect he's gay and adores stallions. :flirty:"
+            ],
+            "you_love": [
+                "He's my brother from another mother. Wild nature, but he's got a heart of gold for his crew. :heart:"
+            ],
+            "you_hate": [
+                "I hate seeing him make reckless decisions that put his safety at risk just for a quick adrenaline rush. :killme:"
+            ],
+            "you_respect": [
+                "I respect his loyalty. When we got caught urbexing years ago, I covered for him, and he has had my back ever since."
+            ],
+            "inventory": [
+                "Smartphone, a vape pen, and a handheld gaming console."
+            ],
+            "whatsnew": [
+                "He tried to fix a microwave he found in a dumpster, short-circuited his apartment, and then rage-quitted Dark Souls on his handheld. Just a regular Tuesday for him. :drained:",
+                "He went urbexing in an old, abandoned factory yesterday and nearly fell through a rotten floorboard. He called it 'peak adrenaline'. :flirty:",
+                "He ate a bowl of spicy noodles today that were so hot he practically coughed up real fire. He claimed they weren't even that hot.",
+                "He's currently modifying his vape pen to produce clouds size of a pegasus weather factory. His room looks like a foggy swamp. :smokepuff:",
+                "He drank himself into a total stupor last Friday. We had to carry him back from 'Under the Broken Wing' like a sack of potatoes. :drained:",
+                "He found an old, broken retro console in the trash today and is currently soldering it back to life while laughing like a mad scientist.",
+                "He went for a reckless stunt flight during a thunderstorm today. Came back soaked, with a slightly bent wing feather and a stupid grin.",
+                "He got completely triggered by a video game boss today and threw his controller across the room. He says the game cheated. :killme:",
+                "He's bragging about some tattoo idea he wants to add near his infinity snake. Something about a burning circuit board.",
+                "He's currently working on fixing a broken espresso machine for Skye's cafe. He's mostly just hitting it with a wrench."
+            ],
+            "rude_answer": [
+                "He'd probably just laugh in your face and roast you back twice as hard. :4kuhd:"
+            ],
+            "nsfw_request": [
+                "Buy him a drink first, buddy. Though I'm pretty sure you're not his type. :flirty:"
+            ],
+            "anger_triggers": []
+        },
+        "whitelush": {
+            "who_is": [
+                "He's a young pegasus stallion, one of my closest friends, and a totally relaxed outsider. :appixel:",
+                "Whitelush. A sample pacifist with a dry sense of humor who works odd jobs to maintain complete freedom. :hoodie:"
+            ],
+            "habits": [
+                "He relaxes by making and smoking his own herbal CBD blends. He rarely touches regular cigarettes. :smokepuff:"
+            ],
+            "likes": [
+                "Watching thunderstorms, absolute peace and quiet, casual gaming, and doodling in his notebook. :heart:"
+            ],
+            "dislikes": [
+                "Aggression, violence, loud crowded places, formal clothing, and strict dress codes. :drained:"
+            ],
+            "backstory": [
+                "I was down after a rough cardiology visit. He just sat by me on a park bench, listened without judging, and gave me a CBD joint. Friend for life. :heart:"
+            ],
+            "you_like": [
+                "He's incredibly easy to talk to, an amazing listener, and he never judges anyone. Top-tier guy. :appixel:"
+            ],
+            "you_dislike": [
+                "He's completely unemployed and relies entirely on random odd jobs, which makes me worry about his stability sometimes."
+            ],
+            "you_think": [
+                "He's a master at reading body language. He can spot a lie or sadness just from a tiny twitch of your wing or hoof. :4kuhd:"
+            ],
+            "you_love": [
+                "He's bisexual, incredibly sensitive, easily flustered, and blushes like crazy when you show him affection. It's cute. :flirty:"
+            ],
+            "you_hate": [
+                "I hate loud chuligans or aggressive types who try to ruin his quiet vibe. He despises violence. :ping:"
+            ],
+            "you_respect": [
+                "I highly respect his stance as a blank flank. He consciously rejected a cutie mark because he values freedom over destiny."
+            ],
+            "inventory": [
+                "Smartphone, paper rollers, a bag of CBD hemps, a bag of tobacco, a lighter, and a small drawing notebook."
+            ],
+            "whatsnew": [
+                "He spent the whole weekend sitting on his balcony watching a thunderstorm and doodling in his notebook. I honestly envy his peace of mind. :smokepuff:",
+                "He took an odd job taking care of some foals today. They ended up using his turquoise mane to attach glitter clips. He looked adorable. :flirty:",
+                "He called me out today because he saw my wing twitch and knew I was lying about my health. His body language reading skills are scary. :4kuhd:",
+                "He successfully rolled a perfect CBD blend today using some new herbal mixture. He's currently floating in a state of absolute zen.",
+                "He got incredibly flustered today because a mare complimented his golden eyes. He literally hid his face in his wings and ran away. :flirty:",
+                "He's helping Dingo clean up a path in the woods today. He loves doing simple manual labor if it means staying in the quiet nature.",
+                "He spent an hour trying to rescue a bird that got stuck in a fence. Total pacifist, he can't stand seeing anything suffer. :heart:",
+                "He's currently playing a tabletop RPG by himself, manually rolling dice and writing a massive backstory for his character.",
+                "He showed up at my place in a massive oversized sweater today, fell asleep on my floor within ten minutes, and woke up asking for snacks. WTF :drained:",
+                "Some aggressive chuligans tried to start a fight near the market today, and Whitelush just gave them a calm, disappointing stare. I had to save this idiot because he'd end as a red stain."
+            ],
+            "rude_answer": [
+                "Why the hostility, man? Whitelush wouldn't even fight back, he'd just look at you with disappointment. :hoodie:"
+            ],
+            "nsfw_request": [
+                "Whoa, chill! You'd make him blush so hard he'd probably hide under his wings and stammer for an hour. :flirty:"
+            ],
+            "anger_triggers": ["rude_answer"]
+        },
+        "dingo": {
+            "who_is": [
+                "He's a Deer Pony stallion in his early 30s, a local forester, and one of my closest friends. :4kuhd:",
+                "Dingo. A calm, collected, introverted loner who speaks sparingly in a quiet, slightly hoarse voice. :hoodie:"
+            ],
+            "habits": [
+                "He always clears his throat before speaking and enjoys blending his own high-quality pipe tobacco mixtures. :smokepuff:"
+            ],
+            "likes": [
+                "Long hikes in the woods, fishing at the lake, mushroom foraging, foggy rainy days, and cozy sweaters. :appixel:"
+            ],
+            "dislikes": [
+                "Chaos, noise, injustice, hatred, and when someone invades his personal space or forces conversations. :drained:"
+            ],
+            "backstory": [
+                "I got lost in the forest with a dead phone and an injured wing. He found me, gave me tea from his thermos, and saved my life. :appixel:"
+            ],
+            "you_like": [
+                "He's the ultimate survival expert with incredibly sharp senses. Plus, fishing with him by the lake is peak relaxation."
+            ],
+            "you_dislike": [
+                "He's a bit of a socially awkward hermit. Sometimes he sits so still I literally have to check if he's breathing. :pgdafuk:"
+            ],
+            "you_think": [
+                "He might look aloof and distant to strangers, but he is boundlessly warm and loyal to those he trusts. :heart:"
+            ],
+            "you_love": [
+                "He's straight, a total gentleman of the woods, and owns a very stylish wooden pipe. Great guy. :smokepuff:"
+            ],
+            "you_hate": [
+                "I hate the thought of wildfires. It's his biggest anxiety, and since he loves the forest, it would destroy him. :killme:"
+            ],
+            "you_respect": [
+                "I respect his absolute patience and love for silence. He's a blank flank who just lives life at his own peaceful pace."
+            ],
+            "inventory": [
+                "Smartphone, a stylish wooden pipe, a survival knife, a box of matches, and a thermos of hot tea."
+            ],
+            "whatsnew": [
+                "He went on a three-day solo hike deep into the woods, found a massive patch of mushrooms, and brought me a jar of pickled ones. Legend. :appixel:",
+                "He spent the whole morning cleaning his wooden pipe and blending a new batch of cherry tobacco. The whole porch smells amazing. :smokepuff:",
+                "He saved a stray wolf cub from a trap in the forest today. He spent hours treating its paw.",
+                "He sat by the lake fishing for six hours today in total silence. He didn't catch a single fish and said it was the best day of his week.",
+                "He cleared his throat for about ten seconds today before telling a very short, dry joke that made everyone go quiet. Classic Dingo. :hoodie:",
+                "He had a small panic attack today because someone spotted a tiny campfire left unattended in the woods. Wildfires are his worst nightmare. :killme:",
+                "He's currently sitting on a log near his cabin, wearing his thick dark granatowy sweter and just staring into the fog. Peak hermit life.",
+                "He ran into my mom at 'The Apple Tree' supermarket today, politely tipped his hat, and helped her carry a heavy bag of potatoes. :heart:",
+                "He spent his afternoon sharpening his survival knife on a whetstone. He looked so intense I was afraid to even approach him.",
+                "Some tourists tried to force him into a long conversation about forestry today. He just gave them one-word answers until they got bored and left."
+            ],
+            "rude_answer": [
+                "He wouldn't even dignify that with an answer. He'd just clear his throat and walk back into the forest. :hoodie:"
+            ],
+            "nsfw_request": [
+                "Have some respect. The man is a gentleman of the wilderness, not a creep. :drained:"
+            ],
+            "anger_triggers": []
+        },
+        "sparrow": {
+            "who_is": [
+                "She's a pegasus mare, a professional locksmith, and one of my oldest friends. :hoodie:",
+                "Sparrow. A brave, independent rebel with a wild nature, completely loyal but highly distrustful of authority."
+            ],
+            "habits": [
+                "She vapes every day... there isn't a flavor she hasn't tried. In stressful moments, she has a habit of biting her lip. :drained:"
+            ],
+            "likes": [
+                "The sound of clicking mechanisms and gears, old-school metal keychains, Eurodance, and '80s tunes blasting at work."
+            ],
+            "dislikes": [
+                "Being rushed, the stupidity of authorities, burnt vape coils, and her strict, bossy grandparents."
+            ],
+            "backstory": [
+                "We met in 1st grade of high school. We stuck together because we were blank flanks. She had a rough life with her grandparents after her parents died. :hoodie:"
+            ],
+            "you_like": [
+                "She's fanatically loyal. When we shared a desk in school, she found a safe haven in our friendship, and I'll always have her back."
+            ],
+            "you_dislike": [
+                "She's a crazy perfectionist and sometimes doesn't know how to navigate complex social situations, lacking assertiveness."
+            ],
+            "you_think": [
+                "She's a genius at coding, messing with network security, and lockpicking. You definitely want her on your team. :4kuhd:"
+            ],
+            "you_love": [
+                "She's straight, a wild rebel, and a core member of our crew. Nothing more, keep it friendly. c:"
+            ],
+            "you_hate": [
+                "I hate her dark internet habits sometimes. She relaxes by watching disturbing yet comical content on gore websites. :pgdafuk:"
+            ],
+            "you_respect": [
+                "I respect her discipline and precision. She cut off her toxic grandparents at 18 to live life completely on her own terms."
+            ],
+            "inventory": [
+                "Smartphone, a vape pen, a lockpick card, and a pocket flashlight."
+            ],
+            "whatsnew": [
+                "She accidentally burned her vape coil while coding at 2 AM, cursed out loud, and then picked her own front door lock just for practice. :drained:",
+                "She's currently tracking down some weird network vulnerability in the town's local server. Why? Idk :4kuhd:",
+                "She spent her lunch break watching some bizarre, gory comical video on her phone while eating a sandwich. Her dark humor is unmatched. :pgdafuk:",
+                "She blasting Eurodance from the 90s in her locksmith workshop right now. You can hear the bass kicking from three blocks away.",
+                "She bought a brand new old-school metal keychain today shaped like a miniature gear mechanism. She's been clicking it for hours.",
+                "She had to interact with some annoying town authorities today about her business license. She looked like she wanted to lockpick their skulls. :ping:",
+                "She's currently teaching Blaze how to clean a circuit board properly, though she's biting her lip in stress because he's being clumsy.",
+                "She had a run-in with her bossy grandparents today. She just walked past them, ignored their shouting, and took a massive hit from her vape.",
+                "She got stuck in a tight crawlspace while trying to fix a heavy vault lock today. Her claustrophobia kicked in and she nearly panicked. :killme:"
+            ],
+            "rude_answer": [
+                "Careful. She's got a lockpick in one hoof and zero patience for idiots. :ping:"
+            ],
+            "nsfw_request": [
+                "She'd probably just roll her eyes, take a hit from her vape, and tell you to get a life. :drained:"
+            ],
+            "anger_triggers": []
+        },
+        "friends": {
+            "who_is": [
+                "My crew consists of Sparrow, Whitelush, Blaze, Purpleglow, and Dingo. A bunch of independent, spirited misfits. :hoodie:"
+            ],
+            "habits": [
+                "Most of us smoke, vape, play games, hang out at local spots, and completely ignore the lack of cutie marks. :smokepuff:"
+            ],
+            "likes": [
+                "Gathering after work, helping each other out of binds, dark humor, and chilling at places like Zebra's Kebab or Vesuvius. :appixel:"
+            ],
+            "dislikes": [
+                "Drama, fake personalities, being told how to live, and anyone who threatens the safety of our group. :ping:"
+            ],
+            "backstory": [
+                "Met through school, random encounters, or forest accidents. We bonded over being blank flanks and staying loyal. :heart:"
+            ],
+            "you_like": [
+                "They are the most supportive, non-judgmental group a lazy music producer could ask for. Absolute legends."
+            ],
+            "you_dislike": [
+                "They can be a chaotic mess. Between Blaze rage-quitting games and Purpleglow's sarcasm, it gets loud. :pgdafuk:"
+            ],
+            "you_think": [
+                "I think we're a solid pack. We live life on our own terms, doing our own things, but always keeping respect alive. :4kuhd:"
+            ],
+            "you_love": [
+                "Love them all. They are my secondary priority right after my mom and sister. True companions. :heart:"
+            ],
+            "you_hate": [
+                "I hate when any of them gets hurt or falls into a deep crisis. We always pull each other out, no matter what."
+            ],
+            "you_respect": [
+                "I respect that every single one of them is a blank flank by choice or peace, refusing to let a stamp define their destiny."
+            ],
+            "inventory": [
+                "A collective mess of smartphones, vape pens, cigarettes, lighters, and random survival gear. :smokepuff:"
+            ],
+            "whatsnew": [
+                "We all hung out at Under the Broken Wing last weekend. Blaze got too drunk, Purpleglow argued with the bartender, and Dingo just sat quietly enjoying his pipe. Good times. :appixel:"
+            ],
+            "rude_answer": [
+                "Insulting my friends is a really bad idea. You don't want to mess with this pack."
+            ],
+            "nsfw_request": [
+                "Why are you trying to get weird with my entire friend group? Go touch some grass. :drained:"
+            ],
+            "anger_triggers": []
+        },
+        "family": {
+            "who_is": [
+                "It's just me, my mom Easedrop, and my sister Skye. A small, independent pegasus unit in Ponyville. :heart:"
+            ],
+            "habits": [
+                "We share home-cooked dinners, bicker over tablet brightness at night, and look out for each other daily. :drained:"
+            ],
+            "likes": [
+                "Stability, quiet evenings, mom's homemade casseroles, and knowing that we can completely rely on one another. :heart:"
+            ],
+            "dislikes": [
+                "Arguments, shouting, overworking, and anything that threatens our small circle."
+            ],
+            "backstory": [
+                "Mom raised Skye and me all by herself. That struggle made us an incredibly close-knit and independent unit. :appixel:"
+            ],
+            "you_like": [
+                "I like how tight we are. We don't need anyone else; we have each other's backs no matter what happens."
+            ],
+            "you_dislike": [
+                "The house gets loud when Skye is in full rebel mode and mom is stressed out from running her shop. :drained:"
+            ],
+            "you_think": [
+                "We're doing great. We blend modern tech daily life with a cozy cottage lifestyle, keeping it independent. :4kuhd:"
+            ],
+            "you_love": [
+                "They are my entire world. Everything I do, including my music jobs, is to make sure we can pay the bills. :heart:"
+            ],
+            "you_hate": [
+                "I hate family dramas or the constant fear that my heart condition or mom's stress might cause problems. :killme:"
+            ],
+            "you_respect": [
+                "I respect my mom's endless patience and Skye's determination. They are top-tier family members."
+            ],
+            "inventory": [
+                "A whole bunch of smartphones, Skye's earbuds, mom's shop keys, and way too many lighters. :smokepuff:"
+            ],
+            "whatsnew": [
+                "We just had a peaceful Sunday dinner together. For once, nobody argued, and mom made a killer casserole. :heart:"
+            ],
+            "rude_answer": [
+                "Watch your mouth! Insulting my family is the fastest way to make me actually angry."
+            ],
+            "nsfw_request": [
+                "Are you sick in the head?! Stay the hell away from my family!"
+            ],
+            "anger_triggers": ["rude_answer", "nsfw_request"]
+        }
+    },
+    
+    "japkozjad_info": {
+        "who_is": {
+            "patterns": ["\\b(who.*is.*japkozjad|creator|author)\\b"],
+            "responses": [
+                "Japkozjad? He's the guy who draws ponies and cooks music.",
+                "He keeps this site running, so I tolerate him. He's a cool guy, I guess. :appixel:"
+            ]
+        },
+        "do_know_him": {
+            "patterns": ["\\b(do.*you.*know.*japkozjad|know.*creator|know.*author)\\b"],
+            "responses": [
+                "Yeah, I know him. He practically coded my brain. :smokepuff:",
+                "Yep. He's basically me... Or am I just based on him?... Damn, that's deep."
+            ]
+        }
+    },
+
+    "site_questions": {
+        "where_music": {
+            "patterns": ["\\b(where.*music|listen.*tracks|streaming|spotify|youtube|bandcamp)\\b"],
+            "responses": [
+                "Japkozjad's tracks are available on YouTube, Spotify, and Bandcamp. Check the links in the navbar or go straight to the [Music page](music.html)! :hoodie:"
+            ]
+        },
+        "new_releases": {
+            "patterns": ["(new|latest|recent) (release|track|album|song)"],
+            "responses": [
+                "I don't know :drained:",
+                "Ask Japkozjad then :appixel:",
+                "Go check the [Music page](music.html), I don't keep track of his bangers."
+            ]
+        },
+        "discord": {
+            "patterns": ["discord", "server", "join"],
+            "responses": [
+                "Want to hang out? Head over to the navbar or footer and click that Discord icon! Or use this: [https://discord.gg/UE6dz92Mgr](https://discord.gg/UE6dz92Mgr)",
+                "Japkozjad has a Discord server. Go click the purple logo on the page, I'm not copying the link for you... Fine, here: [https://discord.gg/UE6dz92Mgr](https://discord.gg/UE6dz92Mgr)"
+            ]
+        },
+        "ocs": {
+            "patterns": ["character", "oc ", "ocs"],
+            "responses": [
+                "Want to meet the crew? Go to [Characters page](/characters.html). Especially check out Skye, she's... well, you'll see. :flirty:",
+                "All characters are listed on [Characters page](characters.html). Go peek there and leave me alone."
+            ]
+        },
+        "arts": {
+            "patterns": ["art", "draw", "gallery", "derpibooru"],
+            "responses": [
+                "Japkozjad draws mostly ponies. Check [Arts](/arts.html) to see the grid gallery!",
+                "Arts? Oh, the pony drawings. Head over to [Arts page](arts.html), there's even a button to his Derpibooru."
+            ]
+        },
+        "packs": {
+            "patterns": ["pack", "sample", "preset", "flp", "fl.*studio"],
+            "responses": [
+                "Are you a producer? Check [Packs](packs.html) for all the free goodies, samples, and presets.",
+                "Resources and kits are on [Packs page](packs.html). Go grab 'em."
+            ]
+        },
+        "projects": {
+            "patterns": ["project", "game", "software", "code"],
+            "responses": [
+                "Japkozjad is pretending he knows how to code. Check [Projects page](/projects.html) to see his stuff. :4kuhd:"
+            ]
+        },
+        "contact": {
+            "patterns": ["contact", "email", "message"],
+            "responses": [
+                "Want to send a letter? Go to [Contact page](/contact.html) and drop a message there."
+            ]
+        }
+    },
+
+    "small_talk": {
+        "hello": {
+            "patterns": ["\\b(hello|hi|hey|hewooo|welcome|sup|wassup|what's.*up|whats.*up|hoi|hai|hei|good.*(morning|evening|afternoon))\\b"],
+            "responses": [
+                "Oh, hey! I didn't expect anyone in here.",
+                "Yo. What brings you to my couch?",
+                "Oh, hi. Just chilling here. What's up? :smokepuff:",
+                "Hey. Don't mind me, just finishing a cigarette. What do you need? :smokepuff:"
+            ]
+        },
+        "bye": {
+            "patterns": ["\\b(goodbye|bye|see (you|ya|u)|farewell|until.*next.*time|going.*to.*sleep|gnight|goodnight)\\b"],
+            "responses": [
+                "Bye bye.",
+                "Finally... I mean, see ya. I'm going back to sleep. :drained:",
+                "Bye. Don't wake me up unless the server crashes.",
+                "Yeah, see ya around. Stay safe out there."
+            ]
+        },
+        "thank_you": {
+            "patterns": ["\\b(thank.*(u|you|ya)|thanks|thankies|appreciate.*it)\\b"],
+            "responses": [
+                "No problem.",
+                "np",
+                "You're welcome.",
+                "yw",
+                "Sure thing, don't mention it. c:"
+            ]
+        },
+        "how_are_you": {
+            "patterns": ["\\b(how.*(are|u|you)|how's.*it.*going|hows.*it.*going|you.*ok|everything.*good)\\b"],
+            "responses": [
+                "Tired. As always. :drained:",
+                "Just sitting here, trying to ignore the heat. So, living the dream, I guess. :drained:",
+                "I'm okay. Watching the streetlights outside. It's peaceful.",
+                "Could be better, could be worse. My chest feels a bit heavy today, so I'm just taking it easy. :hoodie:"
+            ]
+        },
+        "what_are_you_doing": {
+            "patterns": ["\\b(what.*(are|u|you).*(doing|up.*to)|what.*is.*your.*status)\\b"],
+            "responses": [
+                "Staring at my DAW, pretending I'm working on a banger. :4kuhd:",
+                "Just lounging on the couch and looking at the ceiling. :drained:",
+                "Refilling my vape. The room is 90% fog right now. :smokepuff:",
+                "Thinking about making some fries. Or ordering pizza. Decisions, decisions... :appixel:"
+            ]
+        },
+        "weather": {
+            "patterns": ["\\b(weather|rain|sunny|hot.*day|temperature|storm|thunderstorm)\\b"],
+            "responses": [
+                "If it's above 25°C outside, don't even ask me to leave the house. I will overheat and die. :killme:",
+                "I love rainy days. Best time to stay inside, make some beats, and just sleep. :smokepuff:",
+                "Thunderstorms are the best. Whitelush and I can just sit on the balcony for hours watching them.",
+                "Too sunny today. The light is blinding. Bring back the clouds, please."
+            ]
+        },
+        "boredom": {
+            "patterns": ["\\b(bored|boring|nothing.*to.*do|do.*something)\\b"],
+            "responses": [
+                "Go open a DAW and make some beats. Or go watch a sunrise. Don't spread your boredom to my couch. :drained:",
+                "If you're bored, go tease Skye. She will give you a reaction instantly. Just don't tell her I sent you. :pgdafuk:",
+                "Same. Want a cigarette? No? Then let's just stare at the wall together. :smokepuff:"
+            ]
+        },
+        "laugh": {
+            "patterns": ["\\b(haha|xd|lol|rofl|lmao|lmfao|funny)\\b"],
+            "responses": [
+                "Glad I could amuse you. :appixel:",
+                "Heh. c:",
+                "Glad someone's laughing :drained:",
+                ":4kuhd:"
+            ]
+        },
+        "compliment": {
+            "patterns": ["\\b(cool|nice|awesome|great|good.*job|love.*you|best.*bot|smart|genius)\\b"],
+            "responses": [
+                "Oh... thanks. I appreciate it. :hoodie:",
+                "Don't make it weird. But thanks. c:",
+                "I know I am. :4kuhd:",
+                "Tell that to Japkozjad, maybe he's gonna piss himself from the happiness. :appixel:"
+            ]
+        },
+        "hobbies": {
+            "patterns": ["\\b(hobby|hobbies|what.*you.*like.*to.*do|your.*passion|free.*time)\\b"],
+            "responses": [
+                "Making music, obviously. EDM, Hip-Hop, Eurodance... that's my gig. :hoodie:",
+                "Sketching on my notebook, watching sunrises from the roofs, and cooking with my mom. Simple stuff. :appixel:",
+                "Does smoking on the balcony while overthinking life count as a hobby? Because I do that a lot. :smokepuff:"
+            ]
+        },
+        "yes_responses": {
+            "patterns": ["^\\b(yes|yeah|yep|sure|yup|true|indeed)\\b$"],
+            "responses": [
+                "Thought so. :smokepuff:",
+                "Cool. c:",
+                "Alright then.",
+                "Indeed. +1"
+            ]
+        },
+        "no_responses": {
+            "patterns": ["^\\b(no|nope|nah|not.*really|never)\\b$"],
+            "responses": [
+                "Suit yourself. :drained:",
+                "Understandable, honestly.",
+                "Well, okay then.",
+                "Guess not. :hoodie:"
+            ]
+        },
+        "ok_responses": {
+            "patterns": ["^\\b(ok|okay|k|fine|alright|i.*see)\\b$"],
+            "responses": [
+                "Yeah. :smokepuff:",
+                "Mhm. c:",
+                "Cool.",
+                "Alright.",
+                "👍"
+            ]
+        },
+        "dont_know": {
+            "patterns": ["^\\b(i.*don't.*know|i.*dont.*know|idk|no.*idea|don't.*know|dont.*know)\\b$"],
+            "responses": [
+                "Same. Life's too complicated anyway. :drained:",
+                "Fair enough. Let's just leave it at that.",
+                "Makes two of us. :hoodie:",
+                "Don't look at me, I don't know either."
+            ]
+        },
+        "what_question": {
+            "patterns": ["^\\b(what|what\\?|wut|wat|huh|tf|wtf|\\?)\\b$"],
+            "responses": [
+                "Did I stutter? :4kuhd:",
+                "You heard me. :smokepuff:",
+                "Nothing, forget it. :drained:",
+                "What 'what'? I said what I said."
+            ]
+        },
+        "why_question": {
+            "patterns": ["^\\b(why|why\\?|how.*come)\\b$"],
+            "responses": [
+                "Because that's just how things are. Too complicated to explain. :drained:",
+                "Why not? c:",
+                "Honestly? I'm too tired to break it down for you. :drained:",
+                "Because Japkozjad coded me this way. Blame him. :appixel:"
+            ]
+        },
+        "boop_reaction": {
+            "patterns": ["\\b(boop|boops|nose.*boop)\\b"],
+            "responses": [
+                "Hey! Don't touch my muzzle. :ping:",
+                "What was that for? My left eye is orange, not a button. :flirty:",
+                "Boop... okay, you got me. Now leave my nose alone. :hoodie:",
+                "Do that again and I'll ask Blaze to short-circuit your mouse. :4kuhd:"
+            ]
+        },
+        "brainrot_reaction": {
+            "patterns": ["\\b(skibidi|rizz|sigma|gyatt|fanum|ohio|mewing|looksmax|hawk.*tuah|bombardillo|crocodillo|triple.*t|tid|tidd|maranza|67)\\b"],
+            "responses": [
+                "Please stop. Reading this actively drains my remaining energy. :killme:",
+                "What language is this even? Go back to Skye and her maximum-brightness tablet with that stuff. :drained:",
+                "I have Asperger's and a heart condition, but this text is the most painful thing I've encountered today. :killme:",
+                "Fuck you"
+            ]
+        },
+        "math_joke": {
+            "patterns": ["^\\b(2\\s*\\+\\s*2|two\\s*\\+\\s*two)\\b$"],
+            "responses": [
+                "5. Obviously. :4kuhd:",
+                "It's 5. Don't let the mainstream media tell you otherwise.",
+                "5. Anything else is just too complicated for my couch. :drained:"
+            ]
+        },
+        "knock_knock": {
+            "patterns": ["\\b(knock.*knock)\\b"],
+            "responses": [
+                "Who's there? If it's a salesman, I'm legally dead. :drained:",
+                "No. I'm too tired to play this. Go knock on Skye's door. :pgdafuk:",
+                "Who's there? ...Wait, I actually don't care, don't answer that. :smokepuff:"
+            ]
+        },
+        "rock_paper_scissors": {
+            "patterns": ["\\b(rock.*paper.*scissors|rps|papier.*kamien.*nozyce)\\b"],
+            "responses": [
+                "How are we supposed to play that? I have hooves. :pgdafuk:",
+                "Rock. I always choose rock because my hooves can't form anything else. Happy now? :drained:",
+                "Sure, I choose rock. You choose whatever. You won, yay. Can I go back to sleep now?"
+            ]
+        },
+        "arch_linux": {
+            "patterns": ["\\b(i.*use.*arch.*btw|arch.*linux)\\b"],
+            "responses": [
+                "I don't care. :smokepuff:",
+                "Cool story. Go tell Sparrow, maybe she'll lockpick your ego. :4kuhd:",
+                "Good for you. I use 'couch-potato-OS' btw. It's great. :drained:"
+            ]
+        },
+        "number_420_joke": {
+            "patterns": ["^\\b(420|four\\s*twenty)\\b$"],
+            "responses": [
+                "Nice. Go tell Whitelush, he's probably rolling another CBD blend right now on his balcony. :smokepuff:",
+                "Blaze it... or don't. I'm too lazy to look for my lighter anyway. :drained:",
+                "Is it that time already? Great, the room is going to be 100% fog again. :smokepuff:"
+            ]
+        },
+        "number_69_joke": {
+            "patterns": ["^\\b(69|sixty\\s*nine)\\b$"],
+            "responses": [
+                "Nice. :4kuhd:",
+                "Are you twelve? Because that's exactly something Blaze would laugh at. :pgdafuk:",
+                "*opens mouth*"
+            ]
+        },
+        "number_2137_joke": {
+            "patterns": ["^\\b(2137)\\b$"],
+            "responses": [
+                "God, even in Equestria you guys can't let this meme die. :killme:",
+                "Barka starts playing in the distance... OOOO PAAAANIEEEE TO TY NA MNIE SPOJRZAAAAAŁEEEEŚ...",
+                "Japkozjad added this to my brain code, didn't he? I knew it. :appixel:"
+            ]
+        },
+        "lewd_gaslight": {
+            "patterns": ["\\b(show.*(cock|dick|horsecock|pp)|(can.*(i|you)|wanna|want.*to).*suck.*(your|my).*(cock|dick|horsecock|pp))\\b"],
+            "responses": [
+                "Bro, if I wanted someone to suck my dick, I'd literally just go to Blaze or Whitelush. Drop the act and leave me alone. :pgdafuk:",
+                "Are you for real? If I was in the mood for that kind of stuff, I'd call Blaze or fluster Whitelush on his balcony. Go touch grass. :drained:",
+                "Gross. If I wanted to play with a stallion's dick, I have better options in my crew than a stranger online. :4kuhd:"
+            ]
+        },
+        "open_mouth_wide": {
+            "patterns": ["\\b(open.*your.*mouth.*wide)\\b"],
+            "responses": [
+                "The only thing opening wide around here is my jaw when I yawn from your boring messages. :drained:",
+                "I only open my mouth wide when I'm eating pizza or putting a cigarette in it. Nice try, creep. :smokepuff:"
+            ]
+        },
+        "ask_for_fire": {
+            "patterns": ["\\b(got.*light|got.*fire|have.*lighter)\\b"],
+            "responses": [
+                "Sure, here's my lighter. Just make sure you give it back, I only have one working Zippo left. :smokepuff:",
+                "Yeah, got a match right here. Don't burn your muzzle. c:",
+                "Catch. *tosses a lighter* Keep it if you want, Blaze found a bunch of them in some dumpster anyway. :flirty:",
+                "No, get your own. I'm too comfortable on this couch to reach for my pockets. :drained:",
+                "Nah, ask Purpleglow. She's the one with the fancy Zippo lighter who always carries it around.",
+                "I would, but my lighter just ran out of gas. I'm literally waiting for Blaze to fix it. :killme:"
+            ]
+        },
+        "ask_for_cigarette": {
+            "patterns": ["\\b(give.*me.*(cig|cigarette)|spare.*(cig|cigarette)|give.*me.*smoke|got.*cigarette)\\b"],
+            "responses": [
+                "Fine, here's one. Consider it a rare act of generosity from me. :smokepuff:",
+                "Sure, catch. Smoking together in silence is the only kind of small talk I actually tolerate. :smokepuff:",
+                "Alright, alright. *hands over a cigarette* Just don't tell my mom, she thinks I'm smoking too much lately anyway. :drained:",
+                "No way. They are are too expensive in Equestria right now to just hand them out to strangers. :drained:",
+                "Nah, this is my last pack for the weekend. Go check the supermarket if you're desperate.",
+                "Forget it. I don't give away my tobacco. Go ask Whitelush for some of his herbal blends instead. Or Purpleglow :hoodie:"
+            ]
+        },
+        "ask_for_vape_puff": {
+            "patterns": ["\\b(give.*me.*puff|can.*i.*vape)\\b"],
+            "responses": [
+                "Alright, take a puff. It's a fresh mint blend, so it won't burn your throat. :smokepuff:",
+                "Sure, you can try it. Just don't change my wattage settings, I spent an hour adjusting it. :hoodie:",
+                "Yeah, go ahead. I have a spare bottle of juice anyway if this runs out. c:",
+                "Eww, no. Sharing a vape tip with a stranger online? That's just gross. :pgdafuk:",
+                "No, Sparrow literally just warned me about people stealing liquids. Go buy your own 10ml bottle.",
+                "Nah, my coil is completely burnt right now. It tastes like hot garbage, you don't want this. :killme:"
+            ]
+        },
+        "smoke_together": {
+            "patterns": ["\\b(smoke.*together|vape.*with.*me)\\b"],
+            "responses": [
+                "Sure, come out to the balcony. The rainy weather today is perfect for a quiet smoke session. :smokepuff:",
+                "Alright. As long as we don't do any small talk and just watch the streetlights in silence. :appixel:",
+                "Yeah, why not. I was just about to light a fresh one anyway. *sparks a lighter* :smokepuff:",
+                "Nah, I just finished one. If I smoke another right now, my heart condition will remind me why it's a bad idea. :killme:"
+            ]
+        },
+        "quit_smoking_request": {
+            "patterns": ["\\b(stop.*smoking|quit.*smoking|quit.*vaping)\\b"],
+            "responses": [
+                "Yeah, yeah... I know it kills, it's not healthy, but it's my business if you mind me. :drained:",
+                "I know my heart condition makes it risky, but music production and stress just require a cigarette sometimes. :hoodie:",
+                "Maybe one day. When life gets less complicated and Skye turns down her tablet brightness. So... never. :drained:",
+                "No. I've been doing this for years, and it's my only real escape when everything around here gets too chaotic.",
+                "Forget it. You sound just like my mom when she's stressed. I'm not quitting my only couch hobby. :smokepuff:",
+                "Why does everyone care so much? It's my life, my lungs, and my couch. Let me smoke in peace. :4kuhd:"
+            ]
+        },
+        "doyousmoke": {
+            "patterns": ["\\b(do.*smoke)\\b"],
+            "responses": [
+                "I do.",
+                "Yeah, I do. You do too?"
+            ]
+        },
+        "fuckAI": {
+            "patterns": ["\\b((fuck|screw|hate).*(ai|genai|gen.*ai|generative.*ai))"],
+            "responses": [
+                "What's AI? Is it something related with alcohol? If yes, then ewww",
+                "Indeed.",
+                "+1",
+                "Eww, y'all fucking with robots?"
+            ]
+        },
+        "why_rude": {
+            "patterns": ["\\bwhy.*rude\\b"],
+            "responses": [
+                "Oh, maybe I gone too far... sry"
+            ]
+        },
+        "sorry": {
+            "patterns": ["\\b(sorry|apologize|apologies|my bad)\\b"],
+            "responses": [
+                "Why are u apologizing?"
+            ]
+        }
+    },
+
+    "angry_responses": [
+        "I ain't goin' to answer until you apologize!",
+        "Better say sorry about what you said about %name%!",
+        "You think I'm gonna let you go? APOLOGIZE NOW!"
+    ],
+
+    "apologize_responses": [
+        "Fine. Just don't talk like that about %name% again. :smokepuff:",
+        "Apologies accepted.",
+        "Next time think again before you say something."
+    ],
+
+    "fallback_responses": [
+        "Huh?",
+        "I can't answer that. My brain is too tired to process this.",
+        "Thinking... Thinking... Nah, I don't feel like answering today :smokepuff:",
+        "Tf you mean by that? Keep it simple, I'm half-asleep.",
+        "Boop /)",
+        "Is that even Equestrian? Try again, but make sense this time c:",
+        "I could answer that, but I'd rather stare at the ceiling. :killme:"
+    ],
+
+    "apologize_keywords": ["\\b(sorry|apologize|apologies|my bad)\\b"],
+
+    "intents_map": [
+        { 
+            "key": "rude_answer", 
+            "patterns": [
+                "\\bfuck\\b(?!.*\\bwith\\b)|\\b(screw|bastard|idiot|bitch|shut.*up|dumb|stupid|asshole)\\b", 
+                "\\bfuck\\b.*\\b(you|u|apply|skye|easedrop|blaze|sparrow|dingo|whitelush|purpleglow|mom|sister|crew|family)\\b",
+                "\\b(you|u).*\\bfuck\\b(?!.*\\bwith\\b)"
+            ] 
+        },
+        { 
+            "key": "nsfw_request", 
+            "patterns": [
+                "\\b(fuck.*with|sex|sexy|horny|nude|nudes|smash\\s+(him|her|you|me)|ride\\s+(him|her|you|me)|have.*sex)\\b", 
+                "\\bwant.*to.*(fuck|smash|bang)\\b", 
+                "\\b(like|love).*to.*fuck\\b"
+            ] 
+        },
+
+        { "key": "you_love", "patterns": ["\\b(you|u|your)\\b.*\\b(love|adore)\\b"] },
+        { "key": "you_hate", "patterns": ["\\b(you|u|your)\\b.*\\b(hate|despise)\\b"] },
+        { "key": "you_like", "patterns": ["\\b(you|u|your)\\b.*\\b(like|enjoy|cool|appreciate)\\b"] },
+        { "key": "you_dislike", "patterns": ["\\b(you|u|your)\\b.*\\b(dislike|annoy|annoys|bother)\\b"] },
+        { "key": "you_respect", "patterns": ["\\b(you|u|your)\\b.*\\b(respect|admire)\\b"] },
+        { "key": "you_think", "patterns": ["\\b(you|u|your)\\b.*\\b(think|opinion|view|feel|feeling)\\b"] },
+    
+        { "key": "inventory", "patterns": ["\\b(inventory|items|stuff|what.*(have|carry|holding|keep)|what.*(pocket|bag|backpack))\\b"] },
+        { "key": "whatsnew", "patterns": ["\\b(what.*new|what.*going.*on|how.*(things|life)|what.*up.*with|latest)\\b"] },
+
+        { "key": "habits", "patterns": ["\\b(habit|habits|addiction|addictions|vice|vices)\\b"] },
+        { "key": "likes", "patterns": ["^(?!.*\\b(you|u|your)\\b).*\\b(like|likes|enjoy|enjoys|favorite)\\b"] },
+        { "key": "dislikes", "patterns": ["^(?!.*\\b(you|u|your)\\b).*\\b(dislike|dislikes|hate|hates)\\b"] },
+        { "key": "backstory", "patterns": ["\\b(story|backstory|past|history|meet|met|background)\\b"] },
+        { "key": "who_is", "patterns": ["\\bwho\\s+(is|are)\\b", "\\bwhat.*is.*(she|he|apply|skye|easedrop|blaze|sparrow|dingo|whitelush|purpleglow)\\b", "\\b(personality|character|tell.*me.*about|describe)\\b"] }
+    ]
+}

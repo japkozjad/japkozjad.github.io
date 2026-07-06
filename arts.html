@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arts - Japkozjad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+<body>
+    <div id="navbar-container">
+        <div id="navbar">
+            <a href="index.html" title="Japkozjad">
+                <img id="navbar-logo-img" src="/assets/site/japkozjad-logo.png" alt="Japkozjad">
+            </a>
+            <div id="navbar-items"></div>
+        </div>
+    </div>
+    <div class="page-container">
+        <div class="centered-content">
+            <div class="page-index">
+                <a href="index.html">Home</a> > <a href="arts.html">Arts</a>
+            </div>
+            <br>
+            <h2>Recent artwork</h2>
+            <br>
+            <div class="derpibooru-container" id="derpibooru-container">
+            </div>
+            <br>
+            <p>Find more artworks on Derpibooru</p>
+            <br>
+            <a href="https://derpibooru.org/search?q=artist:japkozjad" class="button" target="_blank">[ Go to Derpibooru ]</a>
+            <br>
+            <br>
+            <p>Want to use my artworks? Check the <a href="usage-rules.html#arts" id="retro">Usage Rules</a>.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <footer id="footer-container"></footer>
+    <script src="components.js"></script>
+    <script>
+        derpibooruFetcher();
+    </script>
+</body>

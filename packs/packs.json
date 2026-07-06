@@ -1,0 +1,28 @@
+{
+    "packs": [
+        {
+            "title": "Vital Presets Pack",
+            "category": "presets",
+            "description": "A collection of various presets for Vital VST!",
+            "image": "vital-presets-pack.png",
+            "downloadLink": "https://japkozjad.itch.io/japkozjads-presets-pack-for-vital",
+            "buttonText": "Download"
+        },
+        {
+            "title": "Essence Sample Pack",
+            "category": "samples",
+            "description": "My first own Sample Pack I ever made!",
+            "image": "essence-sample-pack.png",
+            "downloadLink": "https://1drv.ms/u/s!AvNbHpd1ZSiignzAKXejqSp-kads?e=EyoIG7",
+            "buttonText": "Download"
+        },
+        {
+            "title": "Stems / Remix Packs",
+            "category": "assets",
+            "description": "Hub for all stems and remix packs of my tracks.",
+            "image": "stems-remix.jpg",
+            "downloadLink": "https://docs.google.com/spreadsheets/d/18n9TPzHxNzcKIwaJSED6Mykj4oA6SIV1gOY02EMX1_o/edit?usp=sharing",
+            "buttonText": "Go"
+        }
+    ]
+}
