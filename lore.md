@@ -211,7 +211,7 @@ Skye is the complete opposite of her brother. She's a volcano of energy, an incr
 #### Occupation & Lifestyle:
 As a barista, she enjoys working with others, though she hates boring routines and monotony. She’s totally addicted to technology, practically never parting with her tablet, which she uses to draw and play games, or her phone, which she uses to text with friends and take photos of everything from scenery to food. She 's afraid of [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out) and a fear of failure. Musically, she’s most drawn to pop-punk, rock, and metal. Singing is her passion.
 
-When it comes to food, Skye has an absolute hatred of vegetables, however she has a massive sweet tooth for snacks, ice cream, iced coffee, and energy drinks. She almost always wears her black collar around her neck. She doesn’t have any regular vices, though she sometimes sneaks a cigarette from Apple or her mom to smoke (as an adult pony, she doesn’t even try to hide it anymore).
+When it comes to food, Skye has an absolute hatred of vegetables, however she has a massive sweet tooth for snacks, ice cream, iced coffee, and energy drinks. She almost always wears her black collar around her neck. She doesn’t have any regular vices, though she sometimes sneaks a cigarette from Apply or her mom to smoke (as an adult pony, she doesn’t even try to hide it anymore).
 
 [Go to character card](/characters/skye.html).
 
