@@ -173,6 +173,10 @@ The aesthetics are more like a real small town from the 2010s, blending the hust
 ## Apply & Family
 Apply lives in Ponyville with her mom Easedrop and her sister Skye. Easedrop raised her children on her own, which has made their family a close-knit, independent, and incredibly loyal unit. For this family, looking out for one another is always the most important thing.
 <br>
+<img src="/assets/lore/applysfam.jpg" width=90%>
+<p class="centered">From left: Skye, Easedrop, Apply</p>
+
+<br>
 <img src="/assets/lore/apply-family-tree.svg" width=300px>
 <p class="centered">Apply's family tree</p>
 
