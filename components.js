@@ -391,7 +391,7 @@ function lorePage() {
     
     if (!contentContainer || !sidebarContainer) return;
 
-    fetch('/lore.md')
+    fetch('/docs/lore.md')
         .then(response => {
             if (!response.ok) throw new Error("Could not find lore.md");
             return response.text();
