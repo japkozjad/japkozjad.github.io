@@ -15,6 +15,9 @@ I used an artificial intelligence in following tasks:
 - https://stackoverflow.com
 - old code from https://github.com/japkozjad/japkozjad.github.io_old
 
+## What will appear/disappear
+- "Apply Intelligence" will be removed because in its current form is unusable and messy, probably I'll restore it later when the code and messages will be written 100% by myself.
+
 ## Copyright info
 - **Source code**: Do whatever you want, I don't care about the source code.
 - **Lore and Characters (lore.md)**: Please do not copy without my permission, modify or redistribute them as your own.
